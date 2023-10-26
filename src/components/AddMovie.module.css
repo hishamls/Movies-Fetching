@@ -1,0 +1,28 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 2rem;
+}
+input,
+textarea {
+  border-radius: 7px;
+  padding: 0.5rem 1rem;
+  border: 1px solid black;
+  width: 99%;
+}
+.input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+label {
+  font-size: larger;
+  font-weight: bold;
+}
+button {
+  margin: 1rem auto;
+  width: 33%;
+}
